@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Andre produkter fremstillet i en ovn",
+    "image": "other-furnace-usage.png",
+    "text": "Ovnen kan smelte mursten af sten og stål af jern (stålet skal forskes)."
+  },
+  {
+    "title": "To sider af bånd",
+    "image": "two-sides-of-belts.png",
+    "text": "Venstre og højre side af transportbånd kan bruges uafhængigt til forskellige resourser. Indsætteren placerer emnerne på den fjerne side af bæltet."
+  },
+  {
+    "title": "Genopbygning",
+    "image": "rebuilding.png",
+    "text": "Sten ovnen kan genopbygges med en stålovn uden at fjerne den første først. Det virker på lignende måde for monteringsmaskiner, transportbånd, indsættere, kister og lignende. Det kan bruges til at ændre retningen af transportbåndet."
+  },
+  {
+    "title": "Electrisk netværks info",
+    "image": "electric-network-info.png",
+    "text": "Brug \"__CONTROL__open-gui__\" på en elmast for at åbne statistikken for det electriske netværk den er tilsluttet."
+  },
+  {
+    "title": "Stakoverførsel",
+    "image": "stack-transfer.png",
+    "text": "Brug \"__CONTROL__stack-transfer__\" for at overføre hele stakken af emner. Overførselskomandoen er smart nok til at finde det rigtige sted at placere stakken. For eksempel: Stakoverførsel af en __ITEM__iron-axe__ i hovedinventory flytter den til værktøjs pladsen."
+  },
+  {
+    "title": "Inventory transfer",
+    "image": "inventory-transfer.png",
+    "text": "Invoking \"__CONTROL__inventory-transfer__\" will move all the item stacks of given type between inventories. This can be used, for instance, to transfer all the transport belts from the __ENTITY__wooden-chest__ to the main inventory."
+  },
+  {
+    "title": "Fast Entity transfer",
+    "image": "fast-entity-transfer.png",
+    "text": "Invoking \"__CONTROL__fast-entity-transfer__\" allows you to peform a transfer with the selected entity without opening its gui. If the player's hand is empty the transfer happens from the entity into the player's inventory, and vice-versa when player's hand is full. This can be useful in the early stages of the game, in order to manage __ENTITY__stone-furnace__s, __ENTITY__burner-mining-drill__s, etc."
+  },
+  {
+    "title": "QuickBar access",
+    "image": "quickbar.png",
+    "text": "Every quick bar slot has a shortcut to fetch the item into the cursor. If you already have another item from the quickbar in the cursor, it is returned to the slot it was taken from."
+  },
+  {
+    "title": "Clean cursor",
+    "image": "clean-cursor.png",
+    "text": "Invoking \"__CONTROL__clean-cursor__\" will move the item stack from the cursor into your inventory/quickbar."
+  },
+  {
+    "title": "Additional info",
+    "image": "show-info.png",
+    "text": "Invoking \"__CONTROL__show-info__\" will toggle extended info."
+  },
+  {
+    "title": "Bulding while running",
+    "image": "building-while-running.png",
+    "text": "The quickest way to build more stuff in a straight line, like transport belts, __ENTITY__pipe__ or inserters is to hold the \"__CONTROL__build__\" on the place you want them to be built and run in the desired direction."
+  },
+  {
+    "title": "Fast building of electric lines",
+    "image": "building-electric-lines.png",
+    "text": "The fast way to build electric line is to drag the build key while moving, the next pole will be built on the furthest possible place automatically."
+  },
+  {
+    "title": "Filters",
+    "image": "filter.png",
+    "text": "Invoking \"__CONTROL__set-filter__\" on the quickbar slot lets you set what this slot is reserved for. No other item can be placed into this slot, and items of the selected type will always be priorly moved into this slot."
+  },
+  {
+    "title": "Usable items",
+    "image": "usable-items.png",
+    "text": "Usable items are activated by pressing the quickbar key on the corresponding slot. The mouse cursor specifies the place to activate them (for capsules and grenades)."
+  },
+  {
+    "title": "Copy build",
+    "image": "copy-build.png",
+    "text": "Building with \"__CONTROL__paste-entity-settings__\" will copy all the machine internal configuration from the machine of that same type built for the last time. This includes the connection to the circuit network."
+  }
+]
