@@ -72,6 +72,6 @@
   {
     "title": "Copy build",
     "image": "copy-build.png",
-    "text": "Building with \"__CONTROL__paste-entity-settings__\" will copy all the machine internal configuration from the machine of that same type built for the last time. This includes the connection to the circuit network."
+    "text": "Building with \"__CONTROL__copy-entity-settings__\" and \"__CONTROL__paste-entity-settings__\" will copy all the machine internal configuration from the machine of that same type built for the last time. This includes the connection to the circuit network."
   }
 ]
